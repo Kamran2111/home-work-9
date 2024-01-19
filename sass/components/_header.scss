@@ -1,0 +1,130 @@
+// header-start
+.container {
+  padding: 40px 0 40px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 1440px) {
+  .container {
+    padding: 20px 62px 20px 62px;
+    min-width: 1316px;
+    min-height: 89px;
+  }
+}
+@media (min-width: 1920px) {
+  .container {
+    padding: 30px 125px 30px 125px;
+    min-width: 1670px;
+    min-height: 119px;
+  }
+}
+.container-logo {
+  margin-left: 16px;
+}
+.container-logo__link {
+  color: #fff;
+  text-decoration: none;
+}
+@media (min-width: 1440px) {
+  .container-logo__link {
+    margin-left: 18px;
+    min-width: 109px;
+  }
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-list {
+  display: flex;
+  list-style: none;
+  border-radius: 12px 12px 0px 0px;
+  border-top: 1px solid var(--Dark-12, #1c1c21);
+  border-right: 1px solid var(--Dark-12, #1c1c21);
+  border-left: 1px solid var(--Dark-12, #1c1c21);
+}
+@media (max-width: 1440px) {
+  .menu-list {
+    display: none;
+    margin-left: 482px;
+  }
+}
+.menu-list__item {
+  display: flex;
+  padding: 30px 50px;
+  align-items: center;
+  gap: 10px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  margin-left: 338px;
+}
+@media (max-width: 390px) {
+  .box {
+    display: block;
+  }
+}
+@media (min-width: 1440px) {
+  .box {
+    margin-left: 284px;
+  }
+}
+@media (min-width: 1920px) {
+  .box {
+    margin-left: 340px;
+  }
+}
+.box__btn {
+  @extend %box__btn;
+}
+
+.menu-list__link {
+  text-decoration: none;
+  text-align: center;
+  color: #afb0b6;
+}
+.menu-list__link:hover {
+  color: #fff;
+}
+.menu__btn {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background-color: #070708;
+  gap: 10px;
+  border-radius: 20px 0px 0px 0px;
+  border-top: 1px solid var(--Dark-12, #1c1c21);
+  border-left: 1px solid var(--Dark-12, #1c1c21);
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 28px;
+    right: 10px;
+    width: 10px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+  }
+  &::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    box-shadow: 0 4px 0 0 #fff;
+  }
+}
+@media (min-width: 1440px) {
+  .menu__btn {
+    display: none;
+  }
+}
+// header-end

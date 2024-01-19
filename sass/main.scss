@@ -1,0 +1,10 @@
+@import "./components/header";
+@import "./vars/placeholders";
+@import "./components/main";
+
+body {
+  max-width: 390px;
+  overflow-x: hidden;
+  background-color: #070708;
+  margin: 0 auto;
+}

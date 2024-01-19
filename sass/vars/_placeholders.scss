@@ -1,0 +1,27 @@
+%box__btn {
+  display: flex;
+  padding: 16px 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #2f2f37;
+  background-color: #1c1c21;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+%font-desktop {
+  font-size: 18px;
+  font-weight: 400;
+  color: #afb0b6;
+}
+%font-laptop {
+  font-size: 16px;
+  font-weight: 400;
+  color: #afb0b6;
+}
+%font-mobile {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afb0b6;
+}
