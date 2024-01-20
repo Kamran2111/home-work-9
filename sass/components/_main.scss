@@ -14,7 +14,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 536px;
   gap: 10px;
 }
 .subcontainer-left__title {
@@ -28,6 +27,9 @@
   color: #fff;
 }
 .subcontainer-right__subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 58px;
   font-weight: 600;
   color: #fff;
@@ -48,17 +50,23 @@
     flex-wrap: wrap;
   }
 }
+@media (min-width: 1440px) {
+  .vector-img {
+    margin: 0px 108px 0px 73px;
+  }
+}
 @media (max-width: 1920px) {
   .subcontainer {
     padding: 60px 80px;
     display: flex;
   }
 }
-// @media (min-width: 1440px) {
-//   .subcontainer {
-//     display: flex;
-//   }
-// }
+@media (min-width: 1440px) {
+  .subcontainer {
+    display: flex;
+    min-width: 1280px;
+  }
+}
 @media (min-width: 1920px) {
   .subcontainer {
     width: 1596px;
@@ -104,7 +112,12 @@
   border-top: 1px solid var(--Dark-12, #1c1c21);
   border-bottom: 1px solid var(--Dark-12, #1c1c21);
   background: var(--Dark-06, #0e0e10);
-  width: 1920px;
+  @media (min-width: 1440px) {
+    min-width: 1440px;
+  }
+  @media (min-width: 1920px) {
+    min-width: 1920px;
+  }
 }
 .container-margue__text {
   display: flex;
@@ -116,11 +129,17 @@
   font-size: 18px;
   font-weight: 400;
 }
-@media (max-width: 1440px) {
-  .container-margue {
-    border-top: 1px solid var(--Dark-12, #1c1c21);
-    border-bottom: 1px solid var(--Dark-12, #1c1c21);
-    background: var(--Dark-06, #0e0e10);
-    width: 100%;
+.bg__wrappers {
+  @media (min-width: 390px) {
+    width: 358px;
+    padding: 0px 16px;
+  }
+  @media (min-width: 1440px) {
+    width: 1280px;
+    padding: 0px 80px;
+  }
+  @media (min-width: 1920px) {
+    width: 1596px;
+    padding: 0px 162px;
   }
 }
