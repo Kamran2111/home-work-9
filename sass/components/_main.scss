@@ -218,8 +218,8 @@
     padding: 40px 16px 20px 16px;
   }
   .holder-photograph {
-    border: 1px solid #0b0be7;
-    border-radius: 5px;
+    border: 1px solid #1c1c21;
+    border-radius: 10px;
     margin: 20px 16px 80px 16px;
     padding: 24px 24px;
   }
@@ -238,11 +238,15 @@
     color: #afb0b6;
     font-size: 14px;
     font-weight: 400;
+    width: 273px;
+    padding: 0 0 24px 0;
+    border-bottom: 1px solid #1c1c21;
   }
   .holder-contact__inform {
     display: flex;
     align-items: center;
     gap: 4px;
+    margin-bottom: 20px;
   }
   .holder-contact__title {
     color: #cacace;
@@ -253,10 +257,382 @@
     color: #e4e4e6;
     font-size: 14px;
     font-weight: 500;
+    margin-bottom: 2px;
   }
   .holder-contact__placeholder-email {
     font-size: 16px;
     font-weight: 400;
     color: #afb0b6;
+    margin-top: 0px;
+    margin-bottom: 12px;
+  }
+  .holder-contact__title-number {
+    color: #e4e4e6;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .holder-contact__placeholder-number {
+    color: #afb0b6;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .holder-btn__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 8px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    width: 140px;
+    border: 1px solid #1c1c21;
+    background-color: #070708;
+  }
+  .holder-btn__icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 100px;
+    border: 1px solid #2f2f37;
+    background: #1c1c21;
+  }
+  .holder-btn__icon:hover {
+    content: "";
+    transform: translateX(5px);
+    background-color: #0165e1;
+  }
+  .holder-btn__work {
+    width: 310px;
+    margin-bottom: 16px;
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #2f2f37;
+    background: var(--Dark-12, #1c1c21);
+  }
+  .holder-btn__cv {
+    width: 310px;
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #2f2f37;
+    background: var(--Dark-12, #1c1c21);
+  }
+}
+
+// aviod
+@media (min-width: 1440px) {
+  .holder {
+    display: flex;
+  }
+  .holder__wrappers {
+    padding: 60px 20px 150px 80px;
+  }
+  .holder__pictures {
+    width: 630px;
+    height: 585px;
+  }
+  .holder-photograph {
+    border: 1px solid #1c1c21;
+    border-radius: 10px;
+    margin: 87px 80px 183px 20px;
+    padding: 0px 30px;
+    width: 630px;
+    height: 541px;
+  }
+  .holder-photograph__introduction {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .holder-photograph__title {
+    color: #cacace;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .holder-photograph__subtitle {
+    color: #afb0b6;
+    font-size: 16px;
+    font-weight: 400;
+    width: 503px;
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid #1c1c21;
+  }
+  .holder-contact__inform {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .holder-contact__title {
+    color: #cacace;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .holder-contact {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 16px;
+  }
+  .holder-contact__title-email {
+    color: #e4e4e6;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  .holder-contact__placeholder-email {
+    font-size: 18px;
+    font-weight: 400;
+    color: #afb0b6;
+    margin-top: 0px;
+  }
+  .holder-contact__title-number {
+    color: #e4e4e6;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  .holder-contact__placeholder-number {
+    color: #afb0b6;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+  }
+  .holder-contact__placeholder {
+    width: 277px;
+  }
+  .holder-btn__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 8px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+    width: 140px;
+    border: 1px solid #1c1c21;
+    background-color: #070708;
+  }
+  .holder-btn__icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 100px;
+    border: 1px solid #2f2f37;
+    background: #1c1c21;
+  }
+  .holder-btn__icon:hover {
+    transform: translateX(5px);
+    background-color: #0165e1;
+  }
+  .holder-btn {
+    display: flex;
+    gap: 50px;
+  }
+  .holder__btn {
+    display: flex;
+    gap: 16px;
+  }
+  .holder-btn__work {
+    width: 174px;
+    margin-bottom: 30px;
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #2f2f37;
+    background: var(--Dark-12, #1c1c21);
+  }
+  .holder-btn__cv {
+    width: 174px;
+    display: flex;
+    padding: 14px 24px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #2f2f37;
+    background: var(--Dark-12, #1c1c21);
+  }
+}
+// fdnvkjfn
+@media (min-width: 1920px) {
+  .holder {
+    display: flex;
+  }
+  .holder__wrappers {
+    padding: 80px 30px 200px 162px;
+  }
+  .holder__pictures {
+    width: 783px;
+    height: 710px;
+  }
+  .holder-photograph {
+    border: 1px solid #1c1c21;
+    border-radius: 10px;
+    margin: 129px 162px 249px 30px;
+    padding: 40px 40px;
+    width: 783px;
+    height: 612px;
+  }
+  .holder-photograph__introduction {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .holder-photograph__title {
+    color: #cacace;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .holder-photograph__subtitle {
+    color: #afb0b6;
+    font-size: 18px;
+    font-weight: 400;
+    width: 683px;
+    padding: 0 0 40px 0;
+    border-bottom: 1px solid #1c1c21;
+  }
+  .holder-contact__inform {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .holder-contact__title {
+    color: #cacace;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .holder-contact {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  .holder-contact__title-email {
+    color: #e4e4e6;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .holder-contact__placeholder-email {
+    font-size: 20px;
+    font-weight: 400;
+    color: #afb0b6;
+    margin-top: 0px;
+  }
+  .holder-contact__title-number {
+    color: #e4e4e6;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .holder-contact__placeholder-number {
+    color: #afb0b6;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+  }
+  .holder-contact__placeholder {
+    width: 341px;
+  }
+  .holder-btn__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 10px;
+    margin-bottom: 40px;
+    border-radius: 100px;
+    width: 176px;
+    border: 1px solid #1c1c21;
+    background-color: #070708;
+  }
+  .holder-btn__icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    border-radius: 100px;
+    border: 1px solid #2f2f37;
+    background: #1c1c21;
+  }
+  .holder-btn__icon:hover {
+    transform: translateX(5px);
+    background-color: #0165e1;
+  }
+  .holder-btn {
+    display: flex;
+    gap: 60px;
+  }
+  .holder__btn {
+    display: flex;
+    gap: 20px;
+  }
+  .holder-btn__work {
+    width: 214px;
+    margin-bottom: 40px;
+    display: flex;
+    padding: 18px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #2f2f37;
+    background: var(--Dark-12, #1c1c21);
+  }
+  .holder-btn__cv {
+    width: 214px;
+    margin-bottom: 40px;
+    display: flex;
+    padding: 18px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #2f2f37;
+    background: var(--Dark-12, #1c1c21);
   }
 }

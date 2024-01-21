@@ -85,7 +85,11 @@
         <!-- poasdkvk -->
         <div class="holder">
           <div class="holder__wrappers">
-            <img src="./image/about img.png" alt="img" />
+            <img
+              class="holder__pictures"
+              src="./image/about img.png"
+              alt="img"
+            />
           </div>
           <div class="holder-photograph">
             <div class="holder-photograph__introduction">
@@ -105,22 +109,28 @@
               on a visual odyssey, where each photograph tells a story, and
               every frame is a piece of my heart.
             </p>
+            <div class="holder-contact__inform">
+              <img
+                class="holder-contact__wrapper"
+                src="./image/star.png"
+                alt="img"
+              />
+              <h4 class="holder-contact__title">Contact Information</h4>
+            </div>
             <form class="holder-contact">
-              <div class="holder-contact__inform">
-                <img
-                  class="holder-contact__wrapper"
-                  src="./image/star.png"
-                  alt="img"
-                />
-                <h4 class="holder-contact__title">Contact Information</h4>
+              <div class="holder-contact__placeholder email">
+                <h5 class="holder-contact__title-email">Email</h5>
+                <p class="holder-contact__placeholder-email">
+                  damienbraun@gmail.com
+                </p>
               </div>
-              <h5 class="holder-contact__title-email">Email</h5>
-              <p class="holder-contact__placeholder-email">
-                damienbraun@gmail.com
-              </p>
-              <h5 class="holder-contact__title-number">Phone Number</h5>
-              <p class="holder-contact__placeholder-number">+00 000000000</p>
-              <nav class="holder-btn">
+              <div class="holder-contact__placeholder number">
+                <h5 class="holder-contact__title-number">Phone Number</h5>
+                <p class="holder-contact__placeholder-number">+00 000000000</p>
+              </div>
+            </form>
+            <nav class="holder-btn">
+              <div class="holder-btn__inner">
                 <button class="holder-btn__icon">
                   <a href="#"></a>
                   <img src="./image/facebook icon.png" alt="icon" />
@@ -133,10 +143,12 @@
                   <a href="#"></a>
                   <img src="./image/in icon.png" alt="icon" />
                 </button>
-                <button class="holder__btn">Let’s Work</button>
-                <button class="holder__btn">Download CV</button>
-              </nav>
-            </form>
+              </div>
+              <div class="holder__btn">
+                <button class="holder-btn__work">Let’s Work</button>
+                <button class="holder-btn__cv">Download CV</button>
+              </div>
+            </nav>
           </div>
         </div>
       </section>
