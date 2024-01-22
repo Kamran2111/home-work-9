@@ -1,14 +1,3 @@
-// header-start
-// .header {
-//   @media (max-width: 1440px) {
-//     padding-left: 16px;
-//     padding-right: 16px;
-//   }
-//   @media (min-width: 1440px) {
-//     padding-left: 62px;
-//     padding-left: 62px;
-//   }
-// }
 .nav {
   border-bottom: 1px solid #1c1c21;
   display: flex;
@@ -52,7 +41,6 @@
   display: flex;
 }
 .nav-item__link {
-  // display: none;
   text-decoration: none;
   color: #afb0b6;
   font-size: 14px;
